@@ -10,7 +10,7 @@ pipeline {
         }
 		stage('Build') {
             steps {
-                echo 'Building..'
+                echo 'Building java application..'
 				sh 'mvn -f InformationCentre/pom.xml package'
             }
         }
